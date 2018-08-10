@@ -12,6 +12,8 @@ Ext.define('ExtjsTest.view.main.MainController', {
     },
 
     onConfirm: function (choice) {
+        console.log(choice);
+        
         if (choice === 'yes') {
             Ext.Msg.alert('Alert', 'Yes have been pressed!');
         }
